@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <!--layout template-->
+    <definition name="layout.basic" template="/WEB-INF/ftl/home.ftl">
+        <put-attribute name="title" value=""/><!--name????template??????????-->
+        <put-attribute name="header" value="/WEB-INF/ftl/common/header.ftl"/>
+        <put-attribute name="menu" value="/WEB-INF/ftl/common/menu.ftl"/>
+        <put-attribute name="body" value="basic"/>
+        <put-attribute name="footer" value="/WEB-INF/ftl/common/footer.ftl"/>
+    </definition>
+
+    <!--Pages-->
+    <!--<definition name="site.home" extends="layout.basic">
+        <put-attribute name="title" value="Spring Boot with Tiles 3&ndash;&gt;Home"/>
+        <put-attribute name="body" value="/WEB-INF/view/home/home.ftl"/>
+    </definition>
+
+    <definition name="site.greeting" extends="layout.basic">
+        <put-attribute name="title" value="Spring Boot with Tiles 3&ndash;&gt;Greeting"/>
+        <put-attribute name="body" value="/WEB-INF/view/home/greeting.ftl"/>
+    </definition>-->
+
+</tiles-definitions>
